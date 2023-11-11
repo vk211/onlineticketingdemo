@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import HomeScreen from './pages/homepage/homepage';
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -59,9 +60,15 @@ const Login = () => {
 
 function App() {
   return (
+    <>
     <div className="App">
       <Login />
     </div>
+    <div>
+    <HomeScreen />
+    </div>
+    </>
+    
   );
 }
 
