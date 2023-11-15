@@ -1,0 +1,34 @@
+.theatre-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.theatre-info {
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.theatre-number {
+    font-weight: bold;
+}
+
+.theatre-title {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+
+.view-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}

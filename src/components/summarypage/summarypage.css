@@ -1,0 +1,22 @@
+.confirmation-page {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.confirmation-page h2 {
+    margin-bottom: 20px;
+}
+
+.booking-details {
+    margin-top: 20px;
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.RedirectpageButtom{
+    cursor: pointer;
+    color: blue;
+}
