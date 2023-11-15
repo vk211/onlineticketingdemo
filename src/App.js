@@ -21,11 +21,10 @@ function App() {
   return (
       <Routes>
         <Route  path="/" element={<><Navbar1 /><Slider /><Movies />  </>}/>
-        <Route  path="/movies" element= {<Movies />} />
-        <Route path="/bookingblack" element= {<TheatreSelection theatres={theatres} />} />
-        <Route path="/bookingbhediya" element= {<TheatreSelection theatres={theatres} />} />
+        {/* <Route  path="/movies" element= {<Movies />} /> */}
+        <Route path="/movieid" element= {<TheatreSelection theatres={theatres} />} />
         <Route path="/signup" element= {<SignUp />} />
-        <Route path="/seatselection" element={<Bookticket name="moviename"/>}/>
+        <Route path="/theatreid" element={<Bookticket name="moviename"/>}/>
         <Route path="/summary" element={<BookingConfirmation 
     bookingDetails={{
         id: '123456',

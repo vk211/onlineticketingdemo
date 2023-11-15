@@ -5,7 +5,7 @@ import './theatreCard.css';
 const TheatreCard = ({data}) => {
     let navigate=useNavigate()
     function handlebooking(){
-      navigate('/seatselection')
+      navigate('/theatreid')
     }
     return (
         <div className="theatre-card">
