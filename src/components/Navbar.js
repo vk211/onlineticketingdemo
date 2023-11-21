@@ -12,12 +12,14 @@ import axios from "axios";
 import Popup from "reactjs-popup";
 import Col from "react-bootstrap/Col";
 
-
+import { useData } from './common/userdata';
 
 
 function Navbar1() {
 
   const [login, setlogin] = useState("Login/SignUp");
+  const [user,setuser] = useState("User")
+  // const { user } = useData();
 
   axios
     .post("https://book-my-show-back-end.onrender.com/check")
@@ -67,7 +69,7 @@ function Navbar1() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  User
+                  Welcome {user}
                 </Offcanvas.Title>
               </Offcanvas.Header>
 

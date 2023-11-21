@@ -1,34 +1,29 @@
 .theatre-card {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    margin-bottom: 20px;
     border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px;
     border-radius: 5px;
-    background-color: #fff;
+    /* display: flex; */
 }
 
-.theatre-info {
-    flex-grow: 1;
-    margin-right: 20px;
+.theatre-card h2 {
+    margin-top: 0;
 }
 
-.theatre-number {
-    font-weight: bold;
+.facilities-list {
+    list-style-type: none;
+    padding-left: 0;
 }
 
-.theatre-title {
-    font-size: 1.2em;
-    margin: 10px 0;
-}
-
-
-.view-button {
-    padding: 10px 20px;
+.theatre-card button {
+    background-color: #4CAF50; /* Green */
     border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
     cursor: pointer;
 }
